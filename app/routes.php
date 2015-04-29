@@ -11,17 +11,11 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
 
-Route::get('resume', function()
-{
-	return "This is my resume";
-});
+Route::get('/', 'HomeController@showWelcome');
 
-Route::get('porfolio', function()
-{
-	return "This is my Porfolio";
-});
+Route::get('/resume', 'HomeController@showResume');
+
+Route::get('/porfolio', 'HomeController@showPorfolio');
+
+Route::get('/contact', 'HomeController@showContact');
