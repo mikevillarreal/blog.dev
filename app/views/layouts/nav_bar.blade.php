@@ -14,6 +14,8 @@
         <li><a href="{{{ action ('HomeController@showResume') }}}">Resume</a></li>
         <li><a href="{{{ action ('HomeController@showPorfolio') }}}">Porfolio</a></li>
         <li><a href="{{{ action ('HomeController@showContact') }}}">Contact me</a></li>
+        <li><a href="{{{ action ('PostsController@create') }}}">Post a Blog</a></li>
+        <li><a href="{{{ action ('PostsController@index') }}}">My Blog</a></li>
       </ul>
     </div>
   </div>

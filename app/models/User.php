@@ -1,4 +1,5 @@
 <?php
+class User extends BaseModel
 
 use Illuminate\Auth\UserTrait;
 use Illuminate\Auth\UserInterface;
