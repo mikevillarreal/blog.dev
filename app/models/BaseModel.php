@@ -13,3 +13,4 @@ Class BaseModel extends Eloquent{
         return $utc->setTimezone('America/Chicago')->diffForHumans();
     }
 }
+
